@@ -1,4 +1,4 @@
 # CSC527
 Homework#1
-\nStudent: LanNguyen
-\nThe Catholic University of America
+  Student: LanNguyen
+  The Catholic University of America
