@@ -15,7 +15,7 @@ def func(y):
 
 
 def perceptron(x, w, bk):
-    keepConstraint = input("Do you want to keep the contraint (bk > -1 = firing state) || (bk <-3 = quiesent state) (y/n)?: ")
+    keepConstraint = input("Do you want to keep the constraint (bk > -1 = firing state) || (bk <-3 = quiesent state) (y/n)?: ")
     if keepConstraint == 'y':
         if bk > -1:
             return 1
