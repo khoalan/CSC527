@@ -21,6 +21,9 @@ def perceptron(x, w, bk):
             return 1
         if bk <= -3:
             return 0
+        sum = np.dot(w, x) + bk
+        y = func(sum)
+        return y
     else:
         sum = np.dot(w, x) + bk
         y = func(sum)
