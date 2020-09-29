@@ -110,7 +110,7 @@ def draw_line(w, data):
     y = -(w[0] + x*w[1])/w[2]
     plt.plot(x, y, '--k',label="DB")
 
-
+print("Running...")
 
 #Create dataset for training
 dataTrain = getDataSet(1000, 1, 10, 6)
@@ -137,6 +137,7 @@ for x in dataTest:
     else:
         plt.plot(x[0], x[1], marker='o', color='b',label='rd')
 
+print("Done")
 
 #Draw decision boundary
 plt.figure(1)
